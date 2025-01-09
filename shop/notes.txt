@@ -1,0 +1,65 @@
+Ishwari@ISSHU MINGW64 ~/eclipse-workspace/pms-restapi
+$ git config --global user.email "ishwarijadhav524@gmail.com"
+
+Ishwari@ISSHU MINGW64 ~/eclipse-workspace/pms-restapi
+$ git config --global user.name "ishwarijadhav"
+
+Ishwari@ISSHU MINGW64 ~/eclipse-workspace/pms-restapi
+$ git init
+Initialized empty Git repository in C:/Users/Ishwari/eclipse-workspace/pms-restapi/.git/
+
+Ishwari@ISSHU MINGW64 ~/eclipse-workspace/pms-restapi (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitattributes
+        .gitignore
+        .mvn/
+        mvnw
+        mvnw.cmd
+        pom.xml
+        src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Ishwari@ISSHU MINGW64 ~/eclipse-workspace/pms-restapi (master)
+$ git add .
+warning: in the working copy of '.gitattributes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.mvn/wrapper/maven-wrapper.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'mvnw.cmd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'pom.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/cdac/training/producthive/PmsRestapiApplication.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/cdac/training/producthive/controller/ProductController.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/test/java/com/cdac/training/producthive/PmsRestapiApplicationTests.java', LF will be replaced by CRLF the next time Git touches it
+
+Ishwari@ISSHU MINGW64 ~/eclipse-workspace/pms-restapi (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitattributes
+        new file:   .gitignore
+        new file:   .mvn/wrapper/maven-wrapper.properties
+        new file:   mvnw
+        new file:   mvnw.cmd
+        new file:   pom.xml
+        new file:   src/main/java/com/cdac/training/producthive/PmsRestapiApplication.java
+        new file:   src/main/java/com/cdac/training/producthive/controller/ProductController.java
+        new file:   src/main/java/com/cdac/training/producthive/model/Product.java
+        new file:   src/main/java/com/cdac/training/producthive/repository/ProductRepository.java
+        new file:   src/main/java/com/cdac/training/producthive/service/ProductService.java
+        new file:   src/main/resources/application.properties
+        new file:   src/test/java/com/cdac/training/producthive/PmsRestapiApplicationTests.java
+
+
+Ishwari@ISSHU MINGW64 ~/eclipse-workspace/pms-restapi (master)
+$
